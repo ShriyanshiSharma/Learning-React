@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 36, 48);
+
+}
+section{
+    margin: 10px;
+    margin-top: 30px;
+    justify-content: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.grid{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 150px;
+    grid-gap:2ch ;
+    justify-content: center;
+  align-content: center;
+}
+li{
+    list-style-type:none
+}
+
+.card{
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+}
+
+.card__main{
+    margin: 2ch;
+}
+span{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.card__name{
+    text-align: center;
+    font-size: 25px;
+    font-weight:bolder;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card__total{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bolder;
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}

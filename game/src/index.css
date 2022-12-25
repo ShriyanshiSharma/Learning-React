@@ -1,0 +1,24 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.heading_style{
+  font-weight: 900;
+  text-shadow: 1.5px 2px  ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(94, 29, 73);
+}
+.slot_inner{
+  padding: 1px ;
+  width: 30%;
+  margin: 0% 35% ;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(170, 170, 170);
+  border: 3px solid black;
+}
