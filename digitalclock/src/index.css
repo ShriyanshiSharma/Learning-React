@@ -1,0 +1,11 @@
+*{
+  margin-top: 8%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(42, 21, 61);
+  text-shadow: 2px 2px black; 
+  background-color: blanchedalmond;
+}
