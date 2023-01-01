@@ -16,37 +16,50 @@ const App = () => {
         const {value,name} = event.target;
 
         setFullName((preValue) => {
+            // destructuring and using spread operation
             if(name === "fName"){
+                const{fname ,...remaining} = {...preValue};
                 return{
                     fname:value,
-                    lname:preValue.lname,
-                    email:preValue.email,
-                    phone:preValue.phone
+                    ...remaining
+                    // fname:value,
+                    // lname:preValue.lname,
+                    // email:preValue.email,
+                    // phone:preValue.phone
                 };
             }
             else if(name === "lName"){
+                const{lname ,...remaining} = {...preValue};
                 return{
-                    fname:preValue.fname,
                     lname:value,
-                    email:preValue.email,
-                    phone:preValue.phone
+                    ...remaining
+                    // fname:preValue.fname,
+                    // lname:value,
+                    // email:preValue.email,
+                    // phone:preValue.phone
 
                 };
             }
             else if(name === "email"){
+            const{email ,...remaining} = {...preValue};
                 return{
-                    fname:preValue.fname,
-                    lname:preValue.lname,
-                    email:value,
-                    phone:preValue.phone
 
+                    email:value,
+                    ...remaining
+                    // fname:preValue.fname,
+                    // lname:preValue.lname,
+                    // email:value,
+                    // phone:preValue.phone
                 };
             }else if(name === "phone"){
+            const{phone ,...remaining} = {...preValue};
                 return{
-                    fname:preValue.fname,
-                    lname:preValue.lname,
-                    email:preValue.email,
+                    ...remaining,
                     phone:value
+                    // fname:preValue.fname,
+                    // lname:preValue.lname,
+                    // email:preValue.email,
+                    // phone:value
 
                 };
             }
