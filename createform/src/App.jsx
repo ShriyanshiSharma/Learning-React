@@ -13,56 +13,60 @@ const App = () => {
 
     const inputEvent = (event) =>{
         // console.log(event.target.value);
-        const {value,name} = event.target;
+        const {name,value} = event.target;
 
         setFullName((preValue) => {
             // destructuring and using spread operation
-            if(name === "fName"){
-                const{fname ,...remaining} = {...preValue};
-                return{
-                    fname:value,
-                    ...remaining
-                    // fname:value,
-                    // lname:preValue.lname,
-                    // email:preValue.email,
-                    // phone:preValue.phone
-                };
+            return{
+                ...preValue,
+                [name ]:value,
             }
-            else if(name === "lName"){
-                const{lname ,...remaining} = {...preValue};
-                return{
-                    lname:value,
-                    ...remaining
-                    // fname:preValue.fname,
-                    // lname:value,
-                    // email:preValue.email,
-                    // phone:preValue.phone
+            // if(name === "fName"){
+            //     const{fname ,...remaining} = {...preValue};
+            //     return{
+            //         fname: value,
+            //         ...remaining
+            //         // fname:value,
+            //         // lname:preValue.lname,
+            //         // email:preValue.email,
+            //         // phone:preValue.phone
+            //     };
+            // }
+            // else if(name === "lName"){
+            //     const{lname ,...remaining} = {...preValue};
+            //     return{
+            //         lname:value,
+            //         ...remaining
+            //         // fname:preValue.fname,
+            //         // lname:value,
+            //         // email:preValue.email,
+            //         // phone:preValue.phone
 
-                };
-            }
-            else if(name === "email"){
-            const{email ,...remaining} = {...preValue};
-                return{
+            //     };
+            // }
+            // else if(name === "email"){
+            // const{email ,...remaining} = {...preValue};
+            //     return{
 
-                    email:value,
-                    ...remaining
-                    // fname:preValue.fname,
-                    // lname:preValue.lname,
-                    // email:value,
-                    // phone:preValue.phone
-                };
-            }else if(name === "phone"){
-            const{phone ,...remaining} = {...preValue};
-                return{
-                    ...remaining,
-                    phone:value
-                    // fname:preValue.fname,
-                    // lname:preValue.lname,
-                    // email:preValue.email,
-                    // phone:value
+            //         email:value,
+            //         ...remaining
+            //         // fname:preValue.fname,
+            //         // lname:preValue.lname,
+            //         // email:value,
+            //         // phone:preValue.phone
+            //     };
+            // }else if(name === "phone"){
+            // const{phone ,...remaining} = {...preValue};
+            //     return{
+            //         ...remaining,
+            //         phone:value
+            //         // fname:preValue.fname,
+            //         // lname:preValue.lname,
+            //         // email:preValue.email,
+            //         // phone:value
 
-                };
-            }
+            //     };
+            // }
         });
     };
 
@@ -82,14 +86,14 @@ const App = () => {
                 <br/>
                 <input 
                 type="text" 
-                name = "fName" 
+                name = "fname" 
                 placeholder = "Enter your First Name" 
                 onChange= {inputEvent}
                 value = {fullName.fname} />
                 <br/>
                 <input 
                 type="text" 
-                name = "lName" 
+                name = "lname" 
                 placeholder = "Enter your Last Name" 
                 onChange= {inputEvent}
                 value = {fullName.lname}/>
