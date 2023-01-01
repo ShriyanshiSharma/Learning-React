@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(116, 202, 173);
+}
+
+div{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+}
+button{
+  background-color: rgb(19, 82, 82);
+  color: blanchedalmond;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 10px;
+}
