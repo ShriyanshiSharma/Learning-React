@@ -7,8 +7,7 @@ const App = () => {
     const [items,setItems] = useState([]);
 
     const itemEvents = (event)=>{
-        setInputList(event.target.value);
-        
+        setInputList(event.target.value);    
     };
     const listOfItems = () =>{
          setItems((oldItems) =>{
@@ -24,8 +23,6 @@ const App = () => {
         });
     };
     
-
-
     return(
         <>
         <div>
