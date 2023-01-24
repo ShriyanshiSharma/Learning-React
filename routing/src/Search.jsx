@@ -17,7 +17,7 @@ const Search = () => {
             <input class="form-control mr-sm-2" type="text" placeholder="Search" onChange={inputEvent} value={img}/>
         </form>
         </div>
-        <Sresult name = {img}/>
+        { img === "" ? null:<Sresult name = {img}/>}
         </>
     );
 }
