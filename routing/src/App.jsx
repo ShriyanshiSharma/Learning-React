@@ -4,6 +4,7 @@ import About from './About';
 import Contact from './Contant';
 import Home from './Home';
 import Menu from './Menu';
+import Search from './Search';
 import User from './User';
 
 
@@ -17,7 +18,7 @@ const App = () => {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/user/:name/:last' element={<User/>}/>
             <Route path='/user/:name' element={<User/>}/>
-
+            <Route path='/search' element={<Search/>}/>
         </Routes>
         </>
     );

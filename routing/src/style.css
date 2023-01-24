@@ -13,3 +13,11 @@ p{
     justify-content: center;
     text-align: center;
 }
+.main-img{
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
