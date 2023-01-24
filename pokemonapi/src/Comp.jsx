@@ -42,8 +42,6 @@ const Comp = () => {
             <option value ={12}>12</option>
             <option value ={13}>13</option>
             <option value ={25}>25</option>
-
-
         </select>
         </>
     );
