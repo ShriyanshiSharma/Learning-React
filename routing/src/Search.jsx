@@ -4,7 +4,7 @@ import Sresult from './Sreault';
 import './style.css';
 
 const Search = () => {
-    const [img,setImg] = useState();
+    const [img,setImg] = useState("");
      const inputEvent = (event) => {
         const data = event.target.value;
         setImg(data);

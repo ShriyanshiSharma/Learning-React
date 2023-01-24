@@ -6,6 +6,7 @@ import Home from './Home';
 import Menu from './Menu';
 import Search from './Search';
 import User from './User';
+import Error from './Error';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='/user/:name/:last' element={<User/>}/>
             <Route path='/user/:name' element={<User/>}/>
             <Route path='/search' element={<Search/>}/>
+            <Route path='*' element={<Error/>}/>
         </Routes>
         </>
     );
