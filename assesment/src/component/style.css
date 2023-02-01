@@ -1,0 +1,108 @@
+.div-1{
+   background-color: #fff;
+   border: 0px solid #fff;
+   border-radius: 2ch;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   padding-top: 0.1rem;
+   margin-bottom: 0;
+}
+
+.div-1 h5{
+    font-weight: 550;
+    text-transform:uppercase;
+    font-size: medium;
+}
+
+.div-2{
+    margin: 2%;
+    padding: 2ch;
+    display: flex;
+}
+.div-3{
+    width: 20%;
+}
+.div-4{
+    margin-top: 10px;
+}
+
+.main-div{
+    margin: 0;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #fff;
+    background-color: antiquewhite;    
+}
+.main-div{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   padding-top: 2%;
+   padding-left: 3%;
+   padding-right: 3%;
+
+}
+
+.main-div h5{
+    font-weight: 550;
+    text-transform:uppercase;
+    font-size: medium;
+}
+
+.main-div h6{
+    font-weight: 550;
+    font-size:small;
+}
+
+.main-1{
+    display: flex;
+}
+
+.username{
+    width: 50%;
+}
+
+.main-2 h5{
+    padding-bottom: 5px;
+}
+.address{
+    display: flex;
+}
+
+.add{
+    width: 20%;
+}
+
+.coordinate{
+    display: flex;
+}
+
+.coor{
+    width: 20%;
+}
+
+.main-3{
+    display: flex;
+}
+
+.info{
+    width: 33%;
+}
+
+.main-4 h5{
+    padding-bottom: 5px;
+}
+
+.company{
+    display: flex;
+}
+
+.com{
+    width: 30%;
+}
+
+.main{
+    justify-content: center;
+    text-align: center;
+}
+
+.zz { 
+    margin: 12px;
+}
