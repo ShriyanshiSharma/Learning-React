@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <>
         <nav>
-        <h1>Gyan BY GURUJI</h1>
+        <h1>Technovation</h1>
         <main>
             <Link to={"/"}>Home</Link>
             <NavLink to={"/contact"}>Contact</NavLink>
