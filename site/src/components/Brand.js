@@ -1,6 +1,6 @@
 import React from "react";
 
-const Brand = () => {
+const Brand = () =>{
     return(
         <>
         </>

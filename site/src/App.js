@@ -6,9 +6,13 @@ import Service from "./components/Service";
 import Brand from "./components/Brand";
 import About from "./components/About";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
+
 import './style/App.scss';
 import './style/header.scss';
 import './style/home.scss';
+import './style/footer.scss';
+
 
 
 const App = () => {
@@ -22,6 +26,7 @@ const App = () => {
                 <Route exact path="/brand" element={<Brand/>}/>
                 <Route exact path="/about" element={<About/>}/>
             </Routes>
+            <Footer/>
         </Router>
     );
 }
