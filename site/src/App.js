@@ -12,6 +12,8 @@ import './style/App.scss';
 import './style/header.scss';
 import './style/home.scss';
 import './style/footer.scss';
+import './style/contact.scss';
+
 
 
 
