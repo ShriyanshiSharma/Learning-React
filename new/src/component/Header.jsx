@@ -57,7 +57,6 @@ const Header =() => {
                     left={'0'}
                     w={'full'}
                     justifyContent={'space-evenly'}
-                    
                     >
                         <Button colorScheme={'purple'}>
                             <Link to={'/login'}>Log In</Link>
@@ -67,6 +66,7 @@ const Header =() => {
                             <Link to={"/signup"}>Sign Up</Link>
                         </Button>
                     </HStack>
+                    
                 </DrawerBody>
             </DrawerContent>
         </Drawer>
